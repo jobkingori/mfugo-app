@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+
+    android:id="@+id/linearparent"
+    android:layout_height="wrap_content">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardbook"
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:src="@drawable/vet1"/>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:orientation="vertical">
+
+
+                    <!--<TextView-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="VetID"-->
+                    <!--android:textColor="#000"-->
+                    <!--android:id="@+id/vetid"-->
+                    <!--/>-->
+                    <TextView
+                        android:id="@+id/vet_name1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="vet name"
+                        android:textColor="#000"
+                        android:textSize="18sp" />
+
+
+                    <TextView
+                        android:id="@+id/location1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="location"
+                        android:textColor="#000"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/image"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="IMAGE"
+                        android:textColor="#000"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,110 @@
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    tools:context="com.example.job.m_fugo.vetsFragment.BookedDetails">
+
+    <com.android.volley.toolbox.NetworkImageView
+        android:id="@+id/image_sign"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/images4"/>
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Description"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:id="@+id/attended"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:text="Click Here To Mark As Attended" />
+
+    <TextView
+        android:layout_margin="10dp"
+        android:gravity="center"
+       android:textAppearance="@android:style/TextAppearance.Large"
+        android:text="Farmer Details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10dp">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Cow Owner" />
+    <TextView
+        android:id="@+id/farmerName"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="farmer name" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10dp"
+        android:weightSum="4">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:text="Phone"
+            android:layout_margin="10dp"/>
+    <TextView
+        android:id="@+id/farmerPhone"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="072310101"
+        android:layout_margin="10dp"/>
+
+        <ImageView
+            android:id="@+id/callFarmer"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@android:drawable/sym_action_call"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10dp"
+        android:weightSum="3">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Location"
+            android:layout_margin="10dp"/>
+   <ImageView
+       android:id="@+id/locate"
+       android:layout_width="0dp"
+       android:layout_weight="2"
+       android:layout_height="wrap_content"
+       android:src="@android:drawable/ic_menu_mapmode"
+       android:layout_margin="10dp"/>
+</LinearLayout>
+</LinearLayout>
+</ScrollView>

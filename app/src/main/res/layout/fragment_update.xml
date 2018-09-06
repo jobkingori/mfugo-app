@@ -1,0 +1,54 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.job.m_fugo.vetsFragment.Update">
+
+    <TextView
+        android:id="@+id/addHealthRecordCowName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Trending Issues In Dairy Farming"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/background">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/trendingTitle"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="TITLE"/>
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/trendingDescription"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="DESCRIPTION"/>
+            <ImageView
+                android:id="@+id/tredingImage"
+                android:layout_width="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/images4"
+                />
+            <Button
+                android:id="@+id/trendingButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="post"/>
+
+            </LinearLayout>
+    </ScrollView>
+</LinearLayout>

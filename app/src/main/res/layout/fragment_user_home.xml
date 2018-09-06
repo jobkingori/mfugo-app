@@ -1,0 +1,140 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background"
+    tools:context="com.example.job.m_fugo.fragments.UserHome">
+    <TextView
+        android:text="Welcome To MFUGO"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:id="@+id/linearBookVet"
+            android:layout_margin="5dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:src="@drawable/images4"
+                android:layout_width="100dp"
+                android:layout_height="100dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Book Vet"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearRegisterCow"
+            android:layout_margin="10dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:src="@drawable/images"
+                android:layout_width="100dp"
+                android:layout_height="100dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Register Cow"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearMilkRecord"
+            android:layout_margin="5dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:src="@drawable/images4"
+                android:layout_width="100dp"
+                android:layout_height="100dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Milk Record"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/linearHealthRecord"
+            android:layout_margin="5dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/images4" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Helath Record"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearTrending"
+            android:layout_margin="10dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:src="@drawable/images"
+                android:layout_width="100dp"
+                android:layout_height="100dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Trending  News"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLogout"
+            android:layout_margin="5dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:src="@drawable/images4"
+                android:layout_width="100dp"
+                android:layout_height="100dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Logout"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

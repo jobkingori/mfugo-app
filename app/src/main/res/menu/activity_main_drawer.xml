@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:checkableBehavior="single"
+        >
+        <item
+            android:id="@+id/userHome"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Home" />
+        <item
+            android:id="@+id/vet"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Book Vet" />
+        <item
+            android:id="@+id/cow"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="RegiserCow" />
+        <item
+            android:id="@+id/milk"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Milk Record" />
+
+        <item
+            android:id="@+id/health"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Health Record" />
+        <item
+            android:id="@+id/news"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Trending \ News" />
+
+    </group>
+
+    <item android:title="Others">
+        <menu>
+           
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_menu_send"
+                android:title="logout" />
+        </menu>
+    </item>
+
+</menu>

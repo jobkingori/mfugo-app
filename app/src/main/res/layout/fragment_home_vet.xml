@@ -1,0 +1,47 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.job.m_fugo.vetsFragment.HomeVet">
+
+        <LinearLayout
+            android:id="@+id/linearCheckBookings"
+            android:layout_width="match_parent"
+            android:layout_marginTop="30dp"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:src="@drawable/mfugo2"
+                android:layout_width="100dp"
+                android:layout_height="100dp" />
+            <TextView
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Check Booking"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearUpadtes"
+            android:layout_marginTop="50dp"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:src="@drawable/images4"
+                android:layout_width="100dp"
+                android:layout_height="100dp" />
+            <TextView
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Post News "/>
+        </LinearLayout>
+
+
+
+</LinearLayout>

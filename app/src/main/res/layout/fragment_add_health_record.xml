@@ -1,0 +1,66 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.job.m_fugo.fragments.AddHealthRecord">
+<TextView
+    android:id="@+id/addHealthRecordCowName"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:text=" Add health Record Cow Name"
+    android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+
+    <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+        android:background="@color/background"
+        >
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="vertical"
+           android:layout_margin="15dp">
+
+
+
+           <android.support.design.widget.TextInputEditText
+               android:id="@+id/disease"
+               android:layout_marginTop="5dp"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:hint="Disease"/>
+
+           <android.support.design.widget.TextInputEditText
+               android:id="@+id/prescription"
+               android:layout_marginTop="10dp"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:hint="Prescription"/>
+
+           <android.support.design.widget.TextInputEditText
+               android:id="@+id/add_health_description"
+               android:layout_marginTop="10dp"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:hint="Description"/>
+
+           <android.support.design.widget.TextInputEditText
+               android:id="@+id/add_health_comment"
+               android:layout_marginTop="10dp"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:hint="Vets Comment"/>
+
+           <Button
+               android:id="@+id/add_health_record"
+               android:layout_marginTop="10dp"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="record"/>
+
+       </LinearLayout>
+   </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,110 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@drawable/images0"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.job.m_fugo.fragments.Book">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="#fff"
+            android:padding="9dp"
+            android:text="Date"
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/book_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@color/cardview_shadow_start_color"
+            android:hint="12/12/2017"
+
+            android:inputType="date"
+            android:padding="10dp"
+            android:textColor="#000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:padding="9dp"
+            android:text="Short Description "
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <EditText
+
+            android:id="@+id/book_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@color/cardview_shadow_start_color"
+            android:hint="Description"
+            android:inputType="textMultiLine"
+            android:lines="3"
+            android:maxLength="200"
+            android:padding="5dp"
+            android:textColor="#000"
+            android:textSize="20sp" />
+        <Button
+            android:id="@+id/btnSelectPhoto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+
+            android:layout_marginRight="80dp"
+            android:text="Select Photo" />
+
+
+        <ImageView
+            android:id="@+id/ivImage"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:src="@drawable/images8" />
+
+
+        <!--<ImageView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="250dp"-->
+        <!--android:id="@+id/imagepreview"-->
+        <!--android:visibility="visible"/>-->
+        <Button
+            android:id="@+id/book_save"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:background="@color/colorPrimary"
+            android:padding="9dp"
+            android:text="save"
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+
+    </LinearLayout>
+
+</ScrollView>
